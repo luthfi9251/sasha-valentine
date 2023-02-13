@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import AOS from 'aos';
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 import PhotoCard from './components/Photo'
 import Layout from './components/Layout'
 import animationValentine from './lottie/HappyValentine.json'
@@ -61,7 +61,7 @@ function App() {
 
   document.title = "Happy Valentine Sasha!"
   document.querySelector("link[rel='icon']").href = icon
-
+  
   useEffect(() => {
     AOS.init();
   }, [])
@@ -70,18 +70,16 @@ function App() {
     <div className="App">
       <Layout center={true} dataAos="fade-up" height="100vh">
         <PhotoCard src = {main} alt="Luthfi and Sasha"/>
-        <Lottie 
-        options={{
-          loop: true,
-          autoplay: true,
-          animationData: animationValentine,
-          rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-          }
-        }}
-          height={100}
-          width={400}
-        />
+        <div className="animationWrapper">
+          <Lottie
+          animationData = {animationValentine}
+          style = {{
+            width: '100%',
+            position: 'absolute',
+            top: "-150px"
+          }} 
+          />
+        </div>
       </Layout>
 
       <Layout>
@@ -109,15 +107,8 @@ function App() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid fugiat enim quos, mollitia eum itaque nisi exercitationem. Vel repellat obcaecati minima nihil reiciendis libero maxime ratione aut nobis in.</p>
 
           <div className='containerAnimation'>
-            <Lottie 
-            options={{
-              loop: true,
-              autoplay: true,
-              animationData: animationCartoon,
-              rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice"
-              }
-            }}
+            <Lottie
+            animationData = {animationCartoon} 
             />
           </div>
         </div>
