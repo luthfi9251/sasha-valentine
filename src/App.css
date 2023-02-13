@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+.App{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #FFAACF;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.headText{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2rem;
+  text-align: right;
+  display: block;
+}
+
+.containerText{
+  width: 90%;
+  padding: 1.5rem;
+  text-align: justify;
+  border-radius: 19px;
+  background: #FFAACF;
+  box-shadow:  13px 13px 26px #db92b2,
+             -13px -13px 26px #ffc2ec;
+}
+
+.containerText > p {
+  margin: 0.4rem 0;
+}
+
+.containerAnimation{
+  width: 200px;
+  transform: translateY(200);
+  margin: auto;
+}
+
+.photoItem{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+  gap: 5px;
+}
+
+.titlePhoto{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2rem;
+}
+
+.containerPhoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 900px) {
+  .App {
+    width: 400px;
+  }
+}
