@@ -21,38 +21,38 @@ import icon from './assets/title.png'
 const data = [
   {
     src: src1,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "The Bookstore",
+    text: "This is the beginning of the story"
   },
   {
     src: src2,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "First hangout",
+    text: "The time when my feelings grew more and more obvious"
   },
   {
     src: src3,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "Quality Time",
+    text: "I enjoy the time we have when we talk about random things"
   },
   {
     src: src4,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "Kidnapped",
+    text: "Actually my mission is to take you out for a walk, not just to pick up my things hehe"
   },
   {
     src: src5,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "The Concert",
+    text: "My first concert and it was wonderfull because of you"
   },
   {
     src: src6,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "First Date",
+    text: "Finally , I got you babe"
   },
   {
     src: src7,
-    title: "Lorem Ipsum",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing."
+    title: "Our Latest Date",
+    text: "You look so pretty and charming"
   }
 ]
 
@@ -102,9 +102,10 @@ function App() {
       <Layout center={false} height="600px">
         <div className='containerText' data-aos="fade-up" data-aos-duration="600">
           <span className='headText'>To : Sasha</span>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid fugiat enim quos, mollitia eum itaque nisi exercitationem. Vel repellat obcaecati minima nihil reiciendis libero maxime ratione aut nobis in.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid fugiat enim quos, mollitia eum itaque nisi exercitationem. Vel repellat obcaecati minima nihil reiciendis libero maxime ratione aut nobis in.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid fugiat enim quos, mollitia eum itaque nisi exercitationem. Vel repellat obcaecati minima nihil reiciendis libero maxime ratione aut nobis in.</p>
+          <p>Happy Valentine ububbb😁🥰🥳❣️♥️</p>
+          <p>Semoga kamu ga bosen yaa aku bikinin kek ginian terusss🥹 dan jangan bosen sama aku😤😤 Makasi udah jadi orang yang spesial buat aku, bisa ngertiin aku dan nemenin aku teruss😁Makasii ububbb🐣☀️</p>
+          <p>Aku minta maaf kalo masih belum bisa menjadi pacar yang baik dan kerenn😀 aku minta maaf juga kalo kadang aku nyebelin wkwk✌️😀masih belum bisa ngertiin ububbb, maaf yaa ububb wangii</p>
+          <p>Yh memang aku ga jago ngebuat kata kata😀 tapi yang terpenting I Love You dik😉😉😁😁I love you banya banya banyaaaaaa, sebanyak aspirasi masyarakat yang ga didengar pemerintah 😁😁😁</p>
 
           <div className='containerAnimation'>
             <Lottie
